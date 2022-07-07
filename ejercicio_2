@@ -1,0 +1,9 @@
+lgoritmo par_impar
+	Definir num1, num2 Como Entero
+	Escribir "Digite el primer numero"
+	Leer num1
+	Escribir "Digite el segundo numero"
+	Leer num2
+	
+	producto = (num1 * num2)
+	Escribir "El producto de los dos numeros es:", producto
