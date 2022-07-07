@@ -1,7 +1,7 @@
 Algoritmo ejercicio_3
-	Definir a, b Como Caracter
+	Definir a, b Como Entero
 	Escribir "Ingrese un numero"
-	Leer a
+	Leera
 	Escribir "Ingrese un numero"
 	Leer b
 	Si a == b Entonces
