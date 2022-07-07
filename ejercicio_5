@@ -1,0 +1,11 @@
+Algoritmo tablaDeMultiplicar
+	Definir E Como Entero
+	Escribir "Ingrese un numero entero"
+	Leer E
+	X <- 1
+	Mientras X <= 12 Hacer
+		M = X*E
+		Escribir "",E,"x",X,"=",M 
+		x = x + 1
+	FinMientras
+FinAlgoritmo
