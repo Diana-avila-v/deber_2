@@ -1,0 +1,14 @@
+Algoritmo secuencia
+	Definir num, indice,suma,producto Como Entero
+	multiplicar <- 1
+	indice = c_i
+	Mientras indice <= c_s Hacer
+		Escribir "Digite un numero"
+		Leer num
+		suma = suma + num 
+		multiplicar = multiplicar * num 
+		indice <- indice + 1
+	Fin Mientras
+	Escribir "La suma es: ",suma
+	Escribir "El producto es: ",producto
+FinAlgoritmo
