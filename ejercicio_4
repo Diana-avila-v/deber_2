@@ -1,0 +1,18 @@
+Algoritmo numero_mayor
+	Definir a,b,c Como Entero
+	Escribir "Ingrese 3 numeros"
+	Leer a,b,c
+	Si a > b Entonces
+		Si a > c Entonces
+			Escribir "El numero mayor es: ", a
+		SiNo
+			Escribir"El numero mayor es:", c
+		Finsi	
+	Sino
+	     Si b > c Entonces
+		Escribir "El numero mayor es:", b
+	    SiNo
+			Escribir "El numero mayor es:", c
+		Finsi	
+	FinSi
+FinAlgoritmo  
