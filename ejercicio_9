@@ -1,0 +1,21 @@
+Algoritmo ejercicio_9
+	Definir dividendo, divisor,resta,resto Como Entero
+	Escribir "Introduce el dividendo"
+	Leer dividendo
+	Escribir "Introduce el divisor"
+	Leer divisor
+	Si divisor = 0 Entonces
+		Escribir "Error ingrese nuevamente"
+	SiNo
+		cociente <- 0
+		resto <- dividendo
+		Mientras resto >= divisor Hacer
+			resto = resto - divisor 
+			cociente <- cociente + 1
+		Fin Mientras
+	FinSi
+	Escribir "El cociente es: ", cociente
+	Escribir "El resto es: ",resto
+	
+FinAlgoritmo
+
