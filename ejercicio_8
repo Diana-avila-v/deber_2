@@ -1,0 +1,12 @@
+Algoritmo suma_numeros
+	Definir a,b,x,producto Como Entero
+	Escribir "Ingrese dos numeros"
+	Leer a,b
+	producto = 0
+	x = 1
+	Mientras x <= a Hacer
+		producto = producto + b
+		x = x + 1
+	Fin Mientras
+	Escribir "El producto de los dos numeros es: ",producto	
+FinAlgoritmo
