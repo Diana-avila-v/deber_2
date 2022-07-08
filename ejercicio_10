@@ -1,0 +1,14 @@
+Algoritmo ejercico
+	definir n,x,mayorr,total como entero
+	Definir ffin,limite Como Caracter
+	producto <- 1
+	limite <- "f"
+	Repetir
+		Escribir "Introduce un numero"
+		leer n
+		Escribir "¿Seguir? f = no s = si"
+		leer ffin
+		producto = producto * n
+	Hasta Que ffin = limite 
+	Escribir "El producto de los numeros es: ",producto
+FinAlgoritmo
