@@ -1,0 +1,12 @@
+Algoritmo numero_negativo
+		Definir numero,suma Como Entero
+		suma <- 0
+		leer numero
+		Mientras num > 0 Hacer
+			suma = suma + num
+			leer numm
+		Fin Mientras
+		Escribir "La suma es: ",suma
+		
+FinAlgoritmo
+
