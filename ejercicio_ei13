@@ -1,0 +1,10 @@
+Algoritmo ejercicio_13
+Definir indice,suma Como Entero
+Suma = 0
+Para indice = 2 Hasta 29 con paso 3 Hacer
+	Si índice mod 5 = 0 Entonces
+		suma = suma + indice
+	FinSi
+FinPara
+Escribir "La suma es: ", suma
+FinAlgoritmo
