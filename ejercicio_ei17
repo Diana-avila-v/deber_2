@@ -1,0 +1,14 @@
+Algoritmo sumapares
+	Definir sunpar,n Como Entero
+	Escribir "Ingrese el total de numeros"
+	leer n
+	Para i<-1 Hasta 30 Con Paso 1 Hacer
+		Escribir "ingrese un numero",i, "del total"
+		leer num
+		Si num mod 2 = 0 Entonces
+			sumpar = sunpar + num
+	
+		Fin Si
+	Fin Para
+	Escribir "la suma de los 30 numeros es: ",sumpar
+	FinAlgoritmo
