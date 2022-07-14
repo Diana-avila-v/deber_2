@@ -4,11 +4,11 @@ Algoritmo sumapares
 	leer n
 	Para x <- 1 Hasta n Con Paso 1 Hacer
 		Escribir "Ingrese numero ",x, " de la secuencia"
-		leer num
+		Leer num
 		Si num mod 2 == 0 Entonces
 			sp = sp + num
 
-		Fin Si
-	Fin Para
+		FinSi
+	FinPara
 	Escribir "la suma de los numeros pares son: ",sp
 FinAlgoritmo
