@@ -1,0 +1,19 @@
+Algoritmo ejercicio_media
+definir media,suma,contador,num como entero
+Definir efe Como Caracter
+suma = 0
+contador =0
+media = 0
+efe= "f"
+escribir "introduce un número"
+Leer num
+mientras num > 0 hacer
+	contador = contador + 1
+	suma = suma + num
+	Escribir " ingrese numero"
+	Leer num
+	media = suma /contador
+finmientras
+escribir "la suma es: ", suma
+escribir "la media es: ", media
+FinAlgoritmo
