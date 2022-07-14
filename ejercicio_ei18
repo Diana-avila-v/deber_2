@@ -2,14 +2,14 @@ ALGORITMO ejercicio_20
 	DEFINIR factorial,n,x COMO ENTERO;
 	
 	ESCRIBIR "introduce un número"
-	LEER n
+	Leer n
 	SI n < 0 ENTONCES
 		ESCRIBIR "El numero no se puede calcular"
 	SINO
 		x = 1  
-		factorial =1
+		factorial=1
 		        Mientras x <= n Hacer
-				factorial <- factorial * x
+				factorial <- factorial * x.
 				x = x + 1
 			Fin Mientras
 			ESCRIBIR "El factorial del numero es: ", factorial;
