@@ -1,0 +1,14 @@
+Algoritmo sumapares
+	Definir sp,n,x,num Como Entero
+	Escribir "Ingrese un numero"
+	leer n
+	Para x <- 1 Hasta n Con Paso 1 Hacer
+		Escribir "Ingrese numero ",x, " de la secuencia"
+		leer num
+		Si num mod 2 == 0 Entonces
+			sp = sp + num
+
+		Fin Si
+	Fin Para
+	Escribir "la suma de los numeros pares son: ",sp
+FinAlgoritmo
