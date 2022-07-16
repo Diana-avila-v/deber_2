@@ -1,0 +1,20 @@
+Algoritmo ejercicio_26
+	Definir i, suma,A,B,C como entero
+	dimension A[16]
+	dimension B[16]
+	dimension C[16]
+	Para i = 1 Hasta 15 Con Paso 1 Hacer
+		Escribir "Ingrese un numero para el vector A"
+		Leer A[i]
+		Escribir "Ingrese un numero para el vector B"
+		Leer B[i]
+	Fin Para
+	Para i = 1 Hasta 15 Con Paso 1 Hacer
+		suma = A[i] + B[i]
+		C[i] = suma
+	Fin Para
+	Para i = 1 Hasta 15 Con Paso 1 Hacer
+		Escribir "Las sumas de A y B son ",C[i]
+	Fin Para
+FinAlgoritmo
+	
