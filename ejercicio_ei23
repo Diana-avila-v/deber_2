@@ -1,0 +1,16 @@
+Algoritmo sumapares
+	Definir n,x,num,mayorr Como Entero
+	Escribir "Ingrese un numero"
+	leer n
+	Para x <- 1 Hasta n Con Paso 1 Hacer
+		Escribir "Ingrese numero ",x, " de la secuencia"
+		Leer num
+		Si num mod 2 == 0 Entonces
+			mayorr = mayorr + 1
+			mayorr = num
+			
+		FinSi
+		
+	FinPara
+	Escribir "El mayor de los pares es: ",mayorr
+FinAlgoritmo
