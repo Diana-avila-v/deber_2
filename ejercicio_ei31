@@ -1,0 +1,20 @@
+Algoritmo ejercicio_31
+	definir i,a,vector,tem como entero
+	dimension vector[20]
+	para i <-1 hasta 19 con paso 1 hacer
+		Escribir "ingrese numero "
+		Leer vector[i]
+	FinPara
+	Para i = 1 Hasta 19 Con Paso 1 hacer 
+		para a = 1 Hasta  19 Con Paso 1 Hacer
+			si vector[a] > vector[a +1 ]
+				tem = vector[a]
+				vector[a] = vector[a + 1]
+				vector[a + 1 ] = tem
+			FinSi
+		FinPara
+	FinPara
+	Para i = 1 Hasta 19 Con Paso 1 hacer 
+		Escribir " la forma ordenada de la secuencia de numero es : ", vector[i] 
+	FinPara
+FinAlgoritmo
