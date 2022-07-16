@@ -1,0 +1,18 @@
+Algoritmo ejercicio_30
+	Definir i,i1,fac,n Como Entero
+	dimension n[20]
+	para i <- 1 hasta 20 con paso 1 hacer
+		escribir "introduce un número"
+		leer n[i]
+	finpara
+	para i <-  1 hasta 20 con paso 1 hacer
+		fac <- 1
+		para i1 <- 3 hasta n[i] con paso 1 hacer
+			fac <- fac * i1
+		finpara
+		n[i] <- fac
+	finpara
+	para i <- 1 hasta 20 con paso 1 hacer
+		escribir "la factorial de los vectores es: ", n[i]
+	finpara
+FinAlgoritmo
