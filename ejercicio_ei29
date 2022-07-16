@@ -1,0 +1,23 @@
+Algoritmo ejercicio29
+	definir a,b,x,vector Como Entero
+	dimension vector[5]
+	Para x = 1 Hasta 5 Con Paso 1 Hacer
+		Escribir "Ingrese un numero"
+		leer vector(x)
+	Fin Para
+	b = 0
+	Para x = 1 Hasta 5 Con Paso 1 Hacer
+		si x == 1 Entonces
+			a = vector(x)
+		SiNo
+			si a > vector(x) Entonces
+				a  = vector(x)
+			FinSi
+		FinSi
+	Fin Para
+	si b == 1 Entonces
+		Escribir "si se encuentra en el vector"
+	SiNo
+		Escribir "No se encuentra en el vector"
+	FinSi
+FinAlgoritmo
