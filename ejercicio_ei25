@@ -11,7 +11,7 @@ Algoritmo vector
 		Sino 
 			Si num[i] > may entonces
 				May = num[i]
-				Posicion = i
+				Posicion = i.
 			FinSi
 		FinSi
 	FinPara
