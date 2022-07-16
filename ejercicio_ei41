@@ -1,0 +1,24 @@
+Algoritmo ejercicio_41
+	Definir  cad Como Caracter 
+	Definir  posicion ,cont Como Entero 
+	cont <- 0 
+	posicion <- 0 
+	Escribir  Sin Saltar "Introduce una frase:" 
+	Leer  cad 
+	Mientras  Subcadena( cad , posicion , posicion) = " " Hacer
+		posicion <- posicion + 1 
+	FinMientras
+	Para  posicion <-posicion hasta Longitud(cad)-1 Hacer
+		Si  Subcadena(cad,posicion,posicion)=" " Entonces
+			cont <- cont + 1 
+			Mientras  Subcadena(cad,posicion,posicion)=" " Y posicion<=Longitud(cad) Hacer
+				posicion <- posicion + 1 
+			FinMientras
+		finsi
+	finpara
+	Si  subcadena(cad,Longitud(cad)-1,Longitud(cad)-1)<>" " Entonces
+		cont <- cont + 1 
+	finsi
+	Escribir  "La frase tiene " , cont , " palabras" 
+	Escribir " la frase tiene " , posicion , " de letras contando los espacios" 
+FinAlgoritmo
