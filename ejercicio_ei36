@@ -1,0 +1,25 @@
+Algoritmo ejercicio_36
+	Definir i, suma,A,B,C como entero
+	dimension A[20]
+	Para i = 1 Hasta  20 Con Paso 1 Hacer
+		Escribir "Ingrese un numero"
+		Leer A[i]
+	Fin Para
+	suma = 0
+	Para i = 1 Hasta 20 Con Paso 1 Hacer
+		si A[i] mod 2 = 0 Entonces
+			suma = suma + A[i] 
+		FinSi
+	FinPara
+	mayorr = A[i]
+	Para i = 1 Hasta 20 Con Paso 1 Hacer
+		si A[i] mod 2 = 1 Entonces
+			si A[i] > mayorr Entonces
+				mayorr = A[i]
+			FinSi
+		FinSi
+			
+	Fin Para
+	Escribir "El mayor de los impares es: ",mayorr
+	Escribir "La suma de los pares es: ",suma
+FinAlgoritmo
