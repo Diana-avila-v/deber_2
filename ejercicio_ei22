@@ -1,0 +1,23 @@
+Algoritmo ejercicio_22
+	Definir num,suma,producto, r,op  Como real
+	op = 0
+	suma = 0
+	producto = 0
+	r = 1
+	Hacer
+		Escribir  "Ingrese un número "
+		leer num
+		si num mod 2 == 0 Entonces
+			suma = suma + num
+		FinSi
+		si num mod 5==0 Entonces
+			r = r * num
+			producto = r
+		FinSi
+		Escribir  "Precione 0 para hacer la salir "
+		Escribir " ingrese otro numero "
+		leer op
+	Hasta Que op = 0
+	Escribir"La suma es: ",suma
+	Escribir  "El producto de los multiplos de 5 es : ",producto
+FinAlgoritmo
