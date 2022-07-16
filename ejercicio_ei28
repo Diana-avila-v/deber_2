@@ -1,0 +1,21 @@
+Algoritmo ejercicio_26
+	Definir i, suma,A, tem como entero
+	dimension vectorA[16]
+Para i = 1 Hasta 15 Con Paso 1 Hacer
+		Escribir "Ingrese un numero para el vector A"
+		Leer vectorA[i]
+	FinPara
+	Para i = 1 Hasta 15 Con Paso 1 Hacer
+		Para a = 1 Hasta 15 Con Paso 1 Hacer
+			Si vectorA[a] > vectorA[a+1] Entonces
+				tem=  vectorA[a]
+				vectorA[a] = vectorA[a+1]
+				vectorA[a+1] = tem
+			FinSi
+	FinPara
+Fin Para
+Para i = 1 Hasta 15 Con Paso 1 Hacer
+	Escribir "La forma ordenada de la secuencia es ",vectorA[i]
+FinPara
+FinAlgoritmo
+	
