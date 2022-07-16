@@ -1,0 +1,21 @@
+Algoritmo ejercicio_43
+	Definir a,b,c,x Como Entero
+	Definir palabra Como Caracter
+	Escribir " escriba una palabra"
+	Leer palabra
+	b = Longitud(palabra)
+	a = 1
+	x = 0
+	Mientras a < b Hacer
+		si Subcadena( palabra,a,a) <> Subcadena(palabra,b,b) Entonces
+			x = x +1
+		FinSi
+		a = a +1
+		b = b -1
+	FinMientras
+	si x == 0 Entonces
+		Escribir " la palabra ", palabra, " es polindromo" 
+	SiNo
+		Escribir " la palabra  ", palabra, " no es polindromo"
+	FinSi
+FinAlgoritmo
