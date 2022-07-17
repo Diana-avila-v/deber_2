@@ -6,7 +6,7 @@ Algoritmo sumapares
 		Escribir "ingrese un numero",i, "del total"
 		leer num
 		Si num mod 2 = 0 Entonces
-			sumpar = sunpar + num
+			sumpar = sumpar + num
 	
 		Fin Si
 	Fin Para
