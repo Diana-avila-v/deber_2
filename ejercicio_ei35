@@ -1,0 +1,42 @@
+Algoritmo ejercicio_35
+Definir indice Como Entero
+Definir p Como Entero
+Definir tipo Como Caracter
+Definir n Como Entero
+Definir cociente Como Entero
+Definir divi Como Entero
+Definir resto Como Entero
+Dimension resultado[20]
+Definir resultado Como cadena
+Escribir "Ingrese un número"
+Leer n
+Escribir "Ingrese el tipo de base"
+Leer tipo; // O,H,B
+cociente <- n
+SEGÚN tipo Hacer
+'B': divi <- 2;
+'O': divi <- 8;
+'H': divi <- 16;
+FinSegun
+p <- 0;
+REPETIR
+p <- p + 1;
+resto <- cociente % divi
+	
+Segun resto Hacer
+10: resultado[p] <- 'A';
+11: resultado[p] <- 'B';
+12: resultado[p] <- 'C';
+13: resultado[p] <- 'D';
+14: resultado[p] <- 'E';
+15: resultado[p] <- 'F';
+De Otro Modo: resultado[p] <- convertiratexto(resto);
+FinSegun
+
+cociente <- trunc(cociente/divi);
+
+Hasta Que  (cociente = 0)
+Para indice <-pul Hasta 1 CON Paso -1 Hacer
+	Escribir (resultado[p]);
+FinPara
+FinAlgoritmo
