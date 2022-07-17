@@ -1,0 +1,24 @@
+//Leer una secuencia de numeros y mostrar cual es el mayor y el menor, el proceso finalizara cuando se introduzca un numero impar
+
+Algoritmo mayor_y_menor 
+	Definir may,men,num Como Entero
+	Escribir "El programa finaliza cuando se ingrese un numero impar"
+	num = 0
+	Mientras num mod 2 = 0  Hacer
+		Escribir "Ingresar el numero"
+		Leer num 
+		si num > may Entonces
+			may = num
+		FinSi
+		si num < men Entonces
+			men = num
+		SiNo
+			si men = 0 Entonces
+				men = num
+			FinSi
+		FinSi
+	FinMientras
+	Escribir "El numero que ingreso es impar"
+	Escribir "El numero mayor es: ",may 
+	Escribir "El numero menor es: ",men
+FinAlgoritmo
