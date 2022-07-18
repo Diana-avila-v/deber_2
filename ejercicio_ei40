@@ -1,0 +1,44 @@
+Algoritmo sin_titulo
+	Escribir "Escriba la palabra (Numero) si quiere ingresar un numero"
+	Escribir "Si quiere escribir una palabra, ingrese (Palabra) en su teclado"
+	Leer p
+	x=0
+	
+	Si p ="Numero" o p="numero"  Entonces
+		Escribir "Cuantos numeros desea ingresar: "
+		Leer n1
+		Dimension vec[n1]
+		Para i<-1 Hasta n1 Con Paso 1 Hacer
+			Escribir "Dame un numero: "
+			Leer n2
+			x=x+1
+		    vec[x]=n2
+		FinPara
+		Escribir "Dame un numero fuera del vector: "
+		Leer num
+		Para i<-1 Hasta n1 Con Paso 1 Hacer
+			Si num=vec[i] Entonces
+				res=vec[i]
+			Fin Si
+		Fin Para
+		Escribir "El numero que se repite es: " res
+	Fin Si
+	Si p = "Palabra" o p ="palabra"  Entonces
+		Escribir "Cuantas palabras desea ingresar: "
+		Leer n1
+		Dimension vec[n1]
+		Para i<-1 Hasta n1 Con Paso 1 Hacer
+			Escribir "Dame las letras: "
+			Leer letras
+			vec[i]=letras
+		Fin Para
+		Escribir "La palabras que esta fuera del conjunto: "
+		Leer letra2
+		Para i<-1 Hasta n1 Con Paso 1 Hacer
+			Si vec[i]=letra2 Entonces
+				res=vec[i]
+			FinSi
+		Fin Para
+		Escribir "Se repite: " res
+	FinSi
+FinAlgoritmo
